@@ -6,6 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="main.js" type="text/javascript"></script><title>Flowers</title>
+        <style>
+      .Ahann {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-family: 'Brush Script MT', sans-serif;
+          font-size: 4rem;
+          color: white;
+          opacity: 0;
+          transition: opacity 1.5s;
+      }
+
+      .Ahann.show {
+          opacity: 1;
+      }
+
+      .Ahann.hide {
+          opacity: 0;
+      }
+  </style>
 </head>
     
 <body class="not-loaded">
