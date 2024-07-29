@@ -8,7 +8,7 @@ document.addEventListener('click', function(event) {
     // Create a new div element
     var ahhhElement = document.createElement('div');
     ahhhElement.classList.add('Ahann');
-    ahhhElement.textContent = 'Ahann';
+    ahhhElement.textContent = 'Ahann!!';
     
     // Position the element at the click location
     ahhhElement.style.top = `${event.clientY}px`;
